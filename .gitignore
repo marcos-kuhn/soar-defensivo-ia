@@ -1,0 +1,12 @@
+# Secretos: NUNCA se suben
+.env
+*.key
+*.pem
+
+# Basura de logs y capturas pesadas
+*.log
+*.pcap
+
+# Cosas de Windows y VS Code
+Thumbs.db
+.vscode/
