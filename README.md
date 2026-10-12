@@ -16,3 +16,7 @@ Suricata · Wazuh · n8n · Claude API · VMware
 ## Documentación
 - [DECISIONES.md](DECISIONES.md): por qué elegí cada cosa
 - [LIMITACIONES.md](LIMITACIONES.md): qué no hace y por qué
+
+## Topología del lab
+![Topología del lab]
+(diagramas/topologia.png)
