@@ -33,3 +33,12 @@ Formato:
   forzar la instalación.
 - Alternativas descartadas: 26.04 LTS (más nueva, pero con menos
   garantías de compatibilidad para el lab).
+
+  ## D-004: Ubicación de las VMs según el tipo de disco
+- Fecha: 2026-10-12
+- Decisión: VM SOC en el disco C: (SSD); Kali y Metasploitable2 en D: (HDD).
+- Por qué: el indexador de Wazuh hace lecturas y escrituras constantes
+  y en un HDD el dashboard sería muy lento. Las VMs de ataque y víctima
+  usan poco el disco.
+- Datos: C: 43,7 GB libres de 378 GB; D: 556 GB libres de 931 GB.
+  RAM en reposo: 5,7 GB de 16 GB.
